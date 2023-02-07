@@ -49,6 +49,7 @@
   </project>
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
   <project path="manifest" name="manifest" remote="pixel-plus" />
+  <project path="platform_testing" name="platform_testing" remote="pixel" />
 
   <!-- Hardware repos -->
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="pixel" />
