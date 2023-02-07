@@ -5,10 +5,10 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/TheParasiteProject/manifest -b thirteen-plus
+repo init --depth=1 --no-repo-verify -u https://github.com/TheParasiteProject/manifest -b thirteen-plus -g default,-mips,-darwin,-notdefault
 
 # Sync
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 ### Build ###
@@ -24,9 +24,3 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ mka bacon -jX
 ```
-
-### Submitting Patches ###
-
-Patches are always welcome! Please submit your patches to our Gerrit.
-
-[Gerrit push guide](https://wiki.pixelexperience.org/help/submit-patch/)
