@@ -1,11 +1,11 @@
-# Pixel Experience #
+# Clean-uped Pixel Experience manifest #
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b thirteen-plus
+repo init -u https://github.com/TheParasiteProject/manifest -b thirteen-plus
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
