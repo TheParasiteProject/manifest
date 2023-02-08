@@ -25,6 +25,8 @@
 
   <!-- External repos -->
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pixel" />
+  <project path="external/tinyalsa" name="external_tinyalsa" remote="pixel" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="pixel" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
@@ -78,6 +80,7 @@
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/logging" name="system_logging" remote="pixel" />
+  <project path="system/media" name="system_media" remote="pixel" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="pixel" />
   <project path="system/vold" name="system_vold" remote="pixel" />
