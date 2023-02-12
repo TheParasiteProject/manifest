@@ -68,6 +68,8 @@
 
   <!-- External repos -->
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/tinyalsa" />
+  <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
@@ -79,9 +81,11 @@
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/platform_testing" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/google/pixel" />
+  <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/display" />
@@ -112,6 +116,7 @@
   <remove-project name="platform/packages/apps/LegacyCamera" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Protips" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SafetyRegulatoryInfo" />
@@ -130,6 +135,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/logging" />
+  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/vold" />
 
