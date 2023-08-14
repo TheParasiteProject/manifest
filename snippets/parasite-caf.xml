@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device repos -->
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="parasite" />
+
+  <!-- Vendor repos - QCOM -->
+  <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="parasite" />
+  <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="parasite" />
+</manifest>

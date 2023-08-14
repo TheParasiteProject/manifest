@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote name="parasite"
+          fetch="https://github.com/TheParasiteProject/"
+          revision="thirteen" />
+
+  <remote name="parasite-gitlab"
+          fetch="https://gitlab.com/someone5678/"
+          revision="thirteen" />
+
+  <!-- Device repos -->
+  <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="parasite" />
+
+  <!-- General repos -->
+  <project path="art" name="art" remote="parasite" />
+  <project path="bionic" name="bionic" remote="parasite" />
+  <project path="build/make" name="build" remote="parasite">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="parasite">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bootable/recovery" name="bootable_recovery" remote="parasite" />
+  <project path="manifest" name="manifest" remote="parasite" />
+  <project path="platform_testing" name="platform_testing" remote="parasite" />
+
+  <!-- External repos -->
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="parasite" />
+  <project path="external/mksh" name="external_mksh" remote="parasite" />
+  <project path="external/tinyalsa" name="external_tinyalsa" remote="parasite" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="parasite" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="parasite" />
+  <project path="frameworks/base" name="frameworks_base" remote="parasite" />
+  <project path="frameworks/native" name="frameworks_native" remote="parasite" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="parasite" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="parasite" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="parasite" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="parasite" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="parasite" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="parasite" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="parasite" />
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="parasite" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="parasite" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="parasite" />
+
+  <!-- System repos -->
+  <project path="system/core" name="system_core" remote="parasite" />
+  <project path="system/logging" name="system_logging" remote="parasite" />
+  <project path="system/media" name="system_media" remote="parasite" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="parasite" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="parasite" />
+  <project path="system/update_engine" name="system_update_engine" remote="parasite" />
+  <project path="system/vold" name="system_vold" remote="parasite" />
+
+  <include name="snippets/parasite-extras.xml" />
+  <include name="snippets/parasite-caf.xml" />
+</manifest>
