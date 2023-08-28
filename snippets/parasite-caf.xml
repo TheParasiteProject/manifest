@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Device repos -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="parasite" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="parasite" />
 
   <!-- Vendor repos - QCOM -->
