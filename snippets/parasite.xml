@@ -45,6 +45,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="parasite" />
 
   <!-- Hardware repos -->
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="parasite" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="parasite" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="parasite" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="parasite" />
