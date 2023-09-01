@@ -7,4 +7,5 @@
   <!-- Vendor repos - QCOM -->
   <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="parasite" />
   <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="parasite" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="parasite" />
 </manifest>
