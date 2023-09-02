@@ -13,6 +13,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" revision="lineage-18.1" remote="lineage" />
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-20.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" revision="lineage-20.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
