@@ -33,6 +33,7 @@
   <project path="platform_testing" name="platform_testing" remote="parasite" />
 
   <!-- External repos -->
+  <project path="external/dtc" name="external_dtc" remote="parasite" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="parasite" />
   <project path="external/mksh" name="external_mksh" remote="parasite" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="parasite" />
