@@ -4,7 +4,6 @@
   <project path="device/parasite/sepolicy" name="device_parasite_sepolicy" remote="parasite" />
 
   <!-- External repos -->
-  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 
   <!-- Hardware repos -->
