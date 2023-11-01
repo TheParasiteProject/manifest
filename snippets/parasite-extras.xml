@@ -18,7 +18,7 @@
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="parasite-gitlab" />
   <project path="packages/apps/SystemUIFlagFlipper" name="packages_apps_SystemUIFlagFlipper" remote="parasite" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="parasite" />
-  <project path="packages/modules/Bluetooth/android/BtHelper" name="packages_modules_Bluetooth_android_BtHelper" remote="parasite" />
+  <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="parasite" />
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="parasite" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="parasite" />
 
