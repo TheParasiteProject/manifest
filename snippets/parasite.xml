@@ -28,14 +28,19 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="parasite" />
+  <project path="kernel/configs" name="kernel_configs" remote="parasite" />
   <project path="manifest" name="manifest" remote="parasite" />
   <project path="platform_testing" name="platform_testing" remote="parasite" />
 
   <!-- External repos -->
+  <project path="external/android-nn-driver" name="external_android-nn-driver" remote="parasite" />
+  <project path="external/armnn" name="external_armnn" remote="parasite" />
+  <project path="external/dtc" name="external_dtc" remote="parasite" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="parasite" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="parasite" />
-  <project path="external/dtc" name="external_dtc" remote="parasite" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="parasite" />
+  <project path="external/libcxx" name="external_libcxx" remote="parasite" />
+  <project path="external/libnl" name="external_libnl" remote="parasite" />
   <project path="external/mksh" name="external_mksh" remote="parasite" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="parasite" />
   <project path="external/tinycompress" name="external_tinycompress" remote="parasite" />
@@ -48,9 +53,12 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="parasite" />
 
   <!-- Hardware repos -->
+  <project path="hardware/google/gchips" name="hardware_google_gchips" remote="parasite" />
+  <project path="hardware/google/graphics/common" name="hardware_google_graphics_common" remote="parasite" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="parasite" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="parasite" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="parasite" />
-  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="parasite" />
+  <project path="hardware/ril" name="hardware_ril" remote="parasite" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="parasite" />

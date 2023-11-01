@@ -22,6 +22,9 @@
   <project path="packages/overlays/ThemeIcons" name="packages_overlays_ThemeIcons" remote="parasite" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="parasite" />
 
+  <!-- Prebuilts repos -->
+  <project path="prebuilts/custom-sdk" name="prebuilts_custom-sdk" remote="parasite" />
+
   <!-- General repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="parasite" >
     <!-- add guards for nxp repositories -->

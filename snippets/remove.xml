@@ -74,10 +74,14 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/android-nn-driver" />
+  <remove-project name="platform/external/armnn" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libcxx" />
+  <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
@@ -90,6 +94,7 @@
   <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- General repos -->
+  <remove-project name="kernel/configs" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
@@ -97,6 +102,8 @@
   <remove-project name="platform/platform_testing" />
 
   <!-- Hardware repos -->
+  <remove-project name="platform/hardware/google/gchips" />
+  <remove-project name="platform/hardware/google/graphics/common" />
   <remove-project name="platform/hardware/google/pixel" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
@@ -110,6 +117,7 @@
   <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/sm8150/display" />
   <remove-project name="platform/hardware/qcom/sm8150/media" />
+  <remove-project name="platform/hardware/ril" />
 
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Browser2" />
