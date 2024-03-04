@@ -51,7 +51,10 @@
   <project path="frameworks/av" name="frameworks_av" remote="parasite" />
   <project path="frameworks/base" name="frameworks_base" remote="parasite" />
   <project path="frameworks/native" name="frameworks_native" remote="parasite" />
+  <project path="frameworks/opt/calendar" name="frameworks_opt_calendar" remote="parasite" />
+  <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="parasite" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="parasite" />
+  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="parasite" />
 
   <!-- Hardware repos -->
   <project path="hardware/google/gchips" name="hardware_google_gchips" remote="parasite" />
