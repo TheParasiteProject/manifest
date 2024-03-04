@@ -12,10 +12,8 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="lineage" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="lineage" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" revision="lineage-18.1" remote="lineage" />
 
   <!-- Hardware repos -->
-  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" revision="lineage-18.1" remote="lineage" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-21.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" revision="lineage-21.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
@@ -90,9 +88,11 @@
   <project path="hardware/qcom-caf/sm8550/media" name="android_hardware_qcom_media" revision="lineage-21.0-caf-sm8550" remote="lineage" />
 
   <!-- Vendor repos - NXP -->
+  <!-- 
   <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" revision="lineage-20.0" remote="lineage" />
   <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" revision="lineage-20.0" remote="lineage" />
   <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" revision="lineage-20.0" remote="lineage" />
+  -->
 
   <!-- Vendor repos - QCOM -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
