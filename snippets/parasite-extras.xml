@@ -43,6 +43,7 @@
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="parasite" />
   <project path="vendor/mainline_modules" name="vendor_mainline_modules" remote="parasite" />
   <project path="vendor/microsoft" name="vendor_microsoft" remote="parasite-gitlab" />
+  <project path="vendor/parasite" name="vendor_parasite" remote="parasite" />
   <project path="vendor/parasite-prebuilts" name="vendor_parasite-prebuilts" remote="parasite" />
   <project path="vendor/pixel-additional" name="vendor_pixel-additional" remote="parasite" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="parasite" />
