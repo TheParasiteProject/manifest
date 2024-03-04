@@ -44,6 +44,7 @@
   <project path="external/mksh" name="external_mksh" remote="parasite" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="parasite" />
   <project path="external/tinycompress" name="external_tinycompress" remote="parasite" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="parasite" />
   <project path="external/zstd" name="external_zstd" remote="parasite" />
 
   <!-- Framework repos -->
