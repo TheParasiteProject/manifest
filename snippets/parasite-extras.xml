@@ -34,13 +34,13 @@
     <linkfile src="dummy/empty.mk" dest="kernel/modules/Android.mk" />
   </project>
   <project path="vendor/certification" name="vendor_certification" remote="parasite-gitlab" />
-  <project path="vendor/gms" name="vendor_gms" remote="parasite-gitlab" />
-  <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="parasite" />
-  <project path="vendor/mainline_modules" name="vendor_mainline_modules" remote="parasite" />
-  <project path="vendor/microsoft" name="vendor_microsoft" remote="parasite-gitlab" />
-  <project path="vendor/parasite" name="vendor_parasite" remote="parasite" />
-  <project path="vendor/parasite-prebuilts" name="vendor_parasite-prebuilts" remote="parasite" />
-  <project path="vendor/pixel-additional" name="vendor_pixel-additional" remote="parasite" />
-  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="parasite" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="parasite" />
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="parasite-gitlab" />
+  <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="parasite" />
+  <project path="vendor/google/mainline_modules" name="vendor_google_mainline_modules" remote="parasite" />
+  <project path="vendor/google/pixel-additional" name="vendor_google_pixel-additional" remote="parasite" />
+  <project path="vendor/google/pixel-framework" name="vendor_google_pixel-framework" remote="parasite" />
+  <project path="vendor/microsoft" name="vendor_microsoft" remote="parasite-gitlab" />
+  <project path="vendor/parasite-prebuilts" name="vendor_parasite-prebuilts" remote="parasite" />
+  <project path="vendor/parasite" name="vendor_parasite" remote="parasite" />
 </manifest>
