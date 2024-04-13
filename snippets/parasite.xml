@@ -31,6 +31,8 @@
   <project path="platform_testing" name="platform_testing" remote="parasite" />
 
   <!-- External repos -->
+  <project path="external/arm-trusted-firmware" name="external_arm-trusted-firmware" remote="parasite" />
+  <project path="external/avb" name="external_avb" remote="parasite" />
   <project path="external/cronet" name="external_cronet" remote="parasite" />
   <project path="external/dtc" name="external_dtc" remote="parasite" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="parasite" />
@@ -54,12 +56,15 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="parasite" />
 
   <!-- Hardware repos -->
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="parasite" />
   <project path="hardware/google/gchips" name="hardware_google_gchips" remote="parasite" />
   <project path="hardware/google/graphics/common" name="hardware_google_graphics_common" remote="parasite" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="parasite" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="parasite" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="parasite" />
   <project path="hardware/ril" name="hardware_ril" remote="parasite" />
+  <project path="hardware/samsung/nfc" name="hardware_samsung_nfc" remote="parasite" />
+  <project path="hardware/st/nfc" name="hardware_st_nfc" remote="parasite" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="parasite" />
@@ -75,6 +80,7 @@
   <!-- System repos -->
   <project path="system/bpf" name="system_bpf" remote="parasite" />
   <project path="system/extras" name="system_extras" remote="parasite" />
+  <project path="system/keymaster" name="system_keymaster" remote="parasite" />
   <project path="system/core" name="system_core" remote="parasite" />
   <project path="system/libhidl" name="system_libhidl" remote="parasite" />
   <project path="system/libziparchive" name="system_libziparchive" remote="parasite" />
