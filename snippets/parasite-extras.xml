@@ -30,6 +30,7 @@
   <project path="prebuilts/tools-parasite" name="prebuilts_tools-parasite" remote="parasite" />
 
   <!-- General repos -->
+  <project path="lineage-sdk" name="lineage-sdk" remote="parasite" />
   <project path="vendor/aosp" name="vendor_aosp" remote="parasite" >
     <!-- add guards for kernel modules repositories -->
     <linkfile src="dummy/empty.mk" dest="kernel/modules/Android.mk" />
