@@ -44,5 +44,6 @@
   <project path="vendor/google/pixel-framework" name="vendor_google_pixel-framework" remote="parasite" />
   <project path="vendor/microsoft" name="vendor_microsoft" remote="parasite-gitlab" />
   <project path="vendor/parasite-prebuilts" name="vendor_parasite-prebuilts" remote="parasite" />
+  <project path="vendor/parasite-signatures/scripts" name="vendor_parasite-signatures_scripts" remote="parasite" />
   <project path="vendor/parasite" name="vendor_parasite" remote="parasite" />
 </manifest>
