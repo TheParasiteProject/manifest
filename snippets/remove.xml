@@ -46,6 +46,9 @@
   <remove-project name="device/google/shusky-sepolicy" />
   <remove-project name="device/google/zuma" />
   <remove-project name="device/google/zuma-sepolicy" />
+  <remove-project name="device/google/akita" />
+  <remove-project name="device/google/akita-kernel" />
+  <remove-project name="device/google/akita-sepolicy" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
   <remove-project name="device/linaro/hikey" />
