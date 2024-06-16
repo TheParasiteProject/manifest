@@ -28,6 +28,7 @@
   <!-- Prebuilts repos -->
   <project path="prebuilts/custom-sdk" name="prebuilts_custom-sdk" remote="parasite" />
   <project path="prebuilts/tools-parasite" name="prebuilts_tools-parasite" remote="parasite" />
+  <project path="prebuilts/module_sdk" name="prebuilts_module_sdk" remote="parasite-gitlab" />
 
   <!-- General repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="parasite" >
