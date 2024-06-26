@@ -33,6 +33,7 @@
   <!-- External repos -->
   <project path="external/arm-trusted-firmware" name="external_arm-trusted-firmware" remote="parasite" />
   <project path="external/avb" name="external_avb" remote="parasite" />
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="parasite" />
   <project path="external/cronet" name="external_cronet" remote="parasite" />
   <project path="external/dtc" name="external_dtc" remote="parasite" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="parasite" />
