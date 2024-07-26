@@ -42,6 +42,7 @@
   <project path="external/libcxx" name="external_libcxx" remote="parasite" />
   <project path="external/libnl" name="external_libnl" remote="parasite" />
   <project path="external/mksh" name="external_mksh" remote="parasite" />
+  <project path="external/noto-fonts" name="external_noto-fonts" remote="parasite" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="parasite" />
   <project path="external/tinycompress" name="external_tinycompress" remote="parasite" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="parasite" />
