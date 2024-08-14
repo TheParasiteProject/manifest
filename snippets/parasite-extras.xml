@@ -40,6 +40,7 @@
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="parasite" />
   <project path="vendor/google/dexopt_profiles" name="vendor_google_dexopt_profiles" remote="parasite-gitlab" />
   <project path="vendor/google/gms" name="vendor_google_gms" remote="parasite-gitlab" />
+  <project path="vendor/google/gms-common-proprietary" name="vendor_google_gms-common-proprietary" remote="parasite-gitlab" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="parasite" />
   <project path="vendor/google/mainline_modules" name="vendor_google_mainline_modules" remote="parasite" />
   <project path="vendor/google/pixel-additional" name="vendor_google_pixel-additional" remote="parasite" />
