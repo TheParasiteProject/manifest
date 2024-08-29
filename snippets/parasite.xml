@@ -43,11 +43,11 @@
   <project path="external/libnl" name="external_libnl" remote="parasite" />
   <project path="external/mksh" name="external_mksh" remote="parasite" />
   <project path="external/noto-fonts" name="external_noto-fonts" remote="parasite" />
+  <project path="external/skia" name="external_skia" remote="parasite" />
   <project path="external/tinyalsa" name="external_tinyalsa" remote="parasite" />
   <project path="external/tinycompress" name="external_tinycompress" remote="parasite" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="parasite" />
   <project path="external/zstd" name="external_zstd" remote="parasite" />
-  <project path="external/skia" name="external_skia" remote="parasite" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="parasite" />
@@ -62,8 +62,8 @@
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="parasite" />
   <project path="hardware/google/gchips" name="hardware_google_gchips" remote="parasite" />
   <project path="hardware/google/graphics/common" name="hardware_google_graphics_common" remote="parasite" />
-  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="parasite" />
   <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="parasite" />
+  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="parasite" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="parasite" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="parasite" />
   <project path="hardware/ril" name="hardware_ril" remote="parasite" />
@@ -83,9 +83,9 @@
 
   <!-- System repos -->
   <project path="system/bpf" name="system_bpf" remote="parasite" />
+  <project path="system/core" name="system_core" remote="parasite" />
   <project path="system/extras" name="system_extras" remote="parasite" />
   <project path="system/keymaster" name="system_keymaster" remote="parasite" />
-  <project path="system/core" name="system_core" remote="parasite" />
   <project path="system/libhidl" name="system_libhidl" remote="parasite" />
   <project path="system/libziparchive" name="system_libziparchive" remote="parasite" />
   <project path="system/logging" name="system_logging" remote="parasite" />
@@ -96,6 +96,6 @@
   <project path="system/update_engine" name="system_update_engine" remote="parasite" />
   <project path="system/vold" name="system_vold" remote="parasite" />
 
-  <include name="snippets/parasite-extras.xml" />
   <include name="snippets/parasite-caf.xml" />
+  <include name="snippets/parasite-extras.xml" />
 </manifest>

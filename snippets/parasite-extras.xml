@@ -14,6 +14,7 @@
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" groups="pdk" clone-depth="1" remote="aosp" revision="refs/tags/android-14.0.0_r0.119" />
 
   <!-- Packages repos -->
+  <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="parasite" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="parasite" />
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="parasite" />
   <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="parasite" />
@@ -22,14 +23,13 @@
   <project path="packages/apps/SystemUIFlagFlipper" name="packages_apps_SystemUIFlagFlipper" remote="parasite" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="parasite" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="parasite" />
-  <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="parasite" />
-  <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="parasite" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="parasite" />
+  <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="parasite" />
 
   <!-- Prebuilts repos -->
   <project path="prebuilts/custom-sdk" name="prebuilts_custom-sdk" remote="parasite" />
-  <project path="prebuilts/tools-parasite" name="prebuilts_tools-parasite" remote="parasite" />
   <project path="prebuilts/module_sdk" name="prebuilts_module_sdk" remote="parasite-gitlab" />
+  <project path="prebuilts/tools-parasite" name="prebuilts_tools-parasite" remote="parasite" />
 
   <!-- General repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="parasite" >
@@ -39,8 +39,8 @@
   <project path="vendor/certification" name="vendor_certification" remote="parasite-gitlab" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="parasite" />
   <project path="vendor/google/dexopt_profiles" name="vendor_google_dexopt_profiles" remote="parasite-gitlab" />
-  <project path="vendor/google/gms" name="vendor_google_gms" remote="parasite-gitlab" />
   <project path="vendor/google/gms-common-proprietary" name="vendor_google_gms-common-proprietary" remote="parasite-gitlab" />
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="parasite-gitlab" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="parasite" />
   <project path="vendor/google/mainline_modules" name="vendor_google_mainline_modules" remote="parasite" />
   <project path="vendor/google/pixel-additional" name="vendor_google_pixel-additional" remote="parasite" />
