@@ -47,6 +47,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="parasite" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="parasite" />
   <project path="external/zstd" name="external_zstd" remote="parasite" />
+  <project path="external/skia" name="external_skia" remote="parasite" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="parasite" />
