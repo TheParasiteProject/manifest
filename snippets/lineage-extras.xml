@@ -7,6 +7,7 @@
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/bson" name="android_external_bson" revision="lineage-20" remote="lineage" />
   <project path="external/connectivity" name="android_external_connectivity" revision="lineage-18.1" remote="lineage" />
+  <project path="external/grub" name="android_external_grub" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
