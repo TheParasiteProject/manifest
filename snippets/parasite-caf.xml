@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Device repos -->
-  <project path="device/qcom/sepolicy_vndr/sm8450" name="device_qcom_sepolicy_vndr" revision="lineage-21.0-caf-sm8450" remote="parasite" />
-
   <!-- Hardware repos - QCOM -->
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="parasite" >
     <!-- add guard for AOSP hardware/qcom dir -->
