@@ -2,6 +2,13 @@
 
 ## Build Process
 
+### Install ###
+
+```bash
+
+sudo apt install -y jq
+```
+
 ### Sync ###
 
 ```bash
