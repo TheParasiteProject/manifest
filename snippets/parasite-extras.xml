@@ -37,7 +37,6 @@
     <!-- add guards for kernel modules repositories -->
     <linkfile src="dummy/empty.mk" dest="kernel/modules/Android.mk" />
   </project>
-  <project path="vendor/certification" name="vendor_certification" remote="parasite-gitlab" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="parasite" />
   <project path="vendor/google/dexopt_profiles" name="vendor_google_dexopt_profiles" remote="parasite-gitlab" />
   <project path="vendor/google/gms-common-proprietary" name="vendor_google_gms-common-proprietary" remote="parasite-gitlab" />
@@ -47,6 +46,7 @@
   <project path="vendor/google/pixel-additional" name="vendor_google_pixel-additional" remote="parasite" />
   <project path="vendor/google/pixel-framework" name="vendor_google_pixel-framework" remote="parasite" />
   <project path="vendor/microsoft/mms" name="vendor_microsoft_mms" remote="parasite-gitlab" />
+  <project path="vendor/parasite/certification" name="vendor_parasite_certification" remote="parasite-gitlab" />
   <project path="vendor/parasite/common" name="vendor_parasite_common" remote="parasite" />
   <project path="vendor/parasite/prebuilts" name="vendor_parasite_prebuilts" remote="parasite" />
   <project path="vendor/parasite/signatures" name="vendor_parasite_signatures" remote="parasite" />
