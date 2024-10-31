@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Vendor repos - QCOM -->
+  <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_dpm-commonsys" remote="parasite" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="vendor_qcom_opensource_fm-commonsys" remote="parasite" />
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device repos -->
+  <project path="device/parasite/sepolicy" name="device_parasite_sepolicy" remote="parasite" />
+
+  <!-- External repos -->
+  <project path="external/connectivity" name="external_connectivity" remote="parasite" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="parasite" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/parasite/android" name="hardware_parasite_android" remote="parasite" />
+  <project path="hardware/parasite/compat" name="hardware_parasite_compat" remote="parasite" />
+  <project path="hardware/sony" name="hardware_sony" remote="parasite" />
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="parasite" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="parasite" />
+  <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="parasite" />
+  <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="parasite" />
+  <project path="packages/apps/EuiccPolicy" name="packages_apps_EuiccPolicy" remote="parasite" />
+  <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" remote="parasite" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="parasite" />
+  <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="parasite" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="parasite" />
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="parasite-gitlab" />
+  <project path="packages/apps/Profiles" name="packages_apps_Profiles" remote="parasite" />
+  <project path="packages/apps/SimpleSettingsConfig" name="packages_apps_SimpleSettingsConfig" remote="parasite" />
+  <project path="packages/apps/SystemUIFlagFlipper" name="packages_apps_SystemUIFlagFlipper" remote="parasite" />
+  <project path="packages/apps/SystemUITuner" name="packages_apps_SystemUITuner" remote="parasite" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="parasite" />
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="parasite" />
+  <project path="packages/overlays/Lineage" name="packages_overlays_Lineage" remote="parasite" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="parasite" />
+
+  <!-- Prebuilts repos -->
+  <project path="prebuilts/custom-sdk" name="prebuilts_custom-sdk" remote="parasite" />
+  <project path="prebuilts/tools-parasite" name="prebuilts_tools-parasite" remote="parasite" />
+
+  <!-- General repos -->
+  <project path="lineage-sdk" name="lineage-sdk" remote="parasite" />
+  <project path="vendor/crowdin" name="vendor_crowdin" remote="parasite" />
+  <project path="vendor/lineage" name="vendor_lineage" remote="parasite" />
+  <project path="vendor/google/dexopt_profiles" name="vendor_google_dexopt_profiles" remote="parasite-gitlab" />
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="parasite-gitlab" />
+  <project path="vendor/google/gms-common-proprietary" name="vendor_google_gms-common-proprietary" remote="parasite-gitlab" />
+  <project path="vendor/google/mainline_modules" name="vendor_google_mainline_modules" remote="parasite" />
+  <project path="vendor/google/packages/apps/SettingsGoogle" name="vendor_google_packages_apps_SettingsGoogle" remote="parasite" />
+  <project path="vendor/google/packages/apps/SystemUIGoogle" name="vendor_google_packages_apps_SystemUIGoogle" remote="parasite" />
+  <project path="vendor/parasite/common" name="vendor_parasite_common" remote="parasite" >
+    <!-- add guards for kernel modules repositories -->
+    <linkfile src="dummy/empty.mk" dest="kernel/modules/Android.mk" />
+  </project>
+  <project path="vendor/parasite/prebuilts" name="vendor_parasite_prebuilts" remote="parasite" />
+  <project path="vendor/parasite/proprietary" name="vendor_parasite_proprietary" remote="parasite" />
+  <project path="vendor/parasite/signatures" name="vendor_parasite_signatures" remote="parasite" />
+  <project path="vendor/sony/somc" name="vendor_sony_somc" remote="parasite-gitlab" />
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="lineage"
+           fetch="https://github.com/"
+           revision="refs/heads/lineage-23.2"
+           review="review.lineageos.org" />
+
+  <!-- External repos -->
+  <project path="external/tinyxml" name="platform/external/tinyxml" revision="refs/tags/android-11.0.0_r46" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" revision="refs/tags/android-15.0.0_r5" />
+  <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="lineage" />
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" remote="lineage" />
+  <!--
+  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="lineage" />
+  <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" remote="lineage" revision="refs/heads/lineage-22.2" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="LineageOS/android_hardware_qcom_data_ipacfg-mgr" remote="lineage" />
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="lineage" revision="refs/heads/lineage-22.2" />
+  <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" remote="lineage" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="lineage" revision="refs/heads/lineage-22.2" />
+  -->
+  <project path="hardware/qcom/sdm845/display" name="LineageOS/android_hardware_qcom_sdm845_display" remote="lineage" />
+  <project path="hardware/qcom/sdm845/gps" name="LineageOS/android_hardware_qcom_sdm845_gps" remote="lineage" />
+  <project path="hardware/qcom/sm7250/display" name="LineageOS/android_hardware_qcom_sm7250_display" remote="lineage" />
+  <project path="hardware/qcom/sm7250/gps" name="LineageOS/android_hardware_qcom_sm7250_gps" remote="lineage" />
+  <project path="hardware/qcom/sm8150/display" name="LineageOS/android_hardware_qcom_sm8150_display" remote="lineage" />
+  <project path="hardware/qcom/sm8150/gps" name="LineageOS/android_hardware_qcom_sm8150_gps" remote="lineage"  />
+
+  <!-- Prebuilts repos -->
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" remote="aosp" revision="a99b805a56199eeac881d7dd5d0fc1bbd0f19593" clone-depth="1" />
+
+  <include name="snippets/lineage/lineage-caf.xml" />
+  <include name="snippets/lineage/lineage-extras.xml" />
+</manifest>
