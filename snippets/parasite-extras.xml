@@ -41,7 +41,6 @@
   <project path="vendor/google/gms" name="vendor_google_gms" remote="parasite-gitlab" />
   <project path="vendor/google/interfaces" name="vendor_google_interfaces" remote="parasite" />
   <project path="vendor/google/mainline_modules" name="vendor_google_mainline_modules" remote="parasite" />
-  <project path="vendor/google/pixel-additional" name="vendor_google_pixel-additional" remote="parasite" />
   <project path="vendor/google/pixel-framework" name="vendor_google_pixel-framework" remote="parasite" />
   <project path="vendor/microsoft/mms" name="vendor_microsoft_mms" remote="parasite-gitlab" />
   <project path="vendor/parasite/certification" name="vendor_parasite_certification" remote="parasite-gitlab" />
