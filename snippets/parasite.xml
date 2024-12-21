@@ -3,11 +3,11 @@
   <!-- Remotes -->
   <remote name="parasite"
           fetch="https://github.com/TheParasiteProject/"
-          revision="main" />
+          revision="14.0" />
 
   <remote name="parasite-gitlab"
           fetch="https://gitlab.com/someone5678/"
-          revision="main" />
+          revision="14.0" />
 
   <!-- General repos -->
   <project path="art" name="art" remote="parasite" />
