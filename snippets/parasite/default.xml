@@ -86,9 +86,6 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="parasite" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="parasite" />
 
-  <!-- Prebuilts repos -->
-  <project path="prebuilts/module_sdk" name="prebuilts_module_sdk" remote="parasite-gitlab" />
-
   <!-- System repos -->
   <project path="system/bpf" name="system_bpf" remote="parasite" />
   <project path="system/core" name="system_core" remote="parasite" />
