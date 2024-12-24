@@ -10,6 +10,7 @@
   <!-- Hardware repos -->
   <project path="hardware/knowles/athletico/sound_trigger_hal" name="platform/hardware/knowles/athletico/sound_trigger_hal" revision="refs/tags/android-15.0.0_r5" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="lineage" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" revision="refs/tags/android-15.0.0_r5" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" revision="refs/tags/android-15.0.0_r5" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="lineage" />
