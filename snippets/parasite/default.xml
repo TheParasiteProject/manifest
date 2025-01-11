@@ -107,6 +107,9 @@
   <project path="system/update_engine" name="system_update_engine" remote="parasite" />
   <project path="system/vold" name="system_vold" remote="parasite" />
 
+  <!-- Toolchain repos -->
+  <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="parasite" />
+
   <include name="snippets/parasite/parasite-caf.xml" />
   <include name="snippets/parasite/parasite-extras.xml" />
 </manifest>

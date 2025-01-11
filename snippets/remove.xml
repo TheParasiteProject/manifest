@@ -154,4 +154,7 @@
   <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+
+  <!-- Toolchain repos -->
+  <remove-project name="toolchain/pgo-profiles" />
 </manifest>
