@@ -7,6 +7,7 @@
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="parasite" />
 
   <!-- Hardware repos -->
+  <project path="hardware/parasite" name="hardware_parasite" remote="parasite" />
   <project path="hardware/sony" name="hardware_sony" remote="parasite" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="parasite" />
 
