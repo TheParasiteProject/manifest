@@ -14,6 +14,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/BtHelper" name="packages_apps_BtHelper" remote="parasite" />
   <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="parasite" />
+  <project path="packages/apps/FlipFlap" name="android_packages_apps_FlipFlap" remote="lineage" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="parasite" />
   <project path="packages/apps/KProfiles" name="packages_apps_KProfiles" remote="parasite" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="parasite" />
