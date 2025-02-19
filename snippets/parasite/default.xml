@@ -20,10 +20,6 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/bazel" name="build_bazel" remote="parasite" >
-    <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
-    <linkfile src="bazel.BUILD" dest="BUILD" />
-  </project>
   <project path="build/blueprint" name="build_blueprint" remote="parasite" />
   <project path="build/soong" name="build_soong" remote="parasite">
     <linkfile src="root.bp" dest="Android.bp" />
