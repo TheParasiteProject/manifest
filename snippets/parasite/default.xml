@@ -2,11 +2,11 @@
 <manifest>
   <!-- Remotes -->
   <remote name="parasite"
-          fetch="git@github.com:TheParasiteProject-Staging"
+          fetch="https://github.com/TheParasiteProject/"
           revision="main" />
 
   <remote name="parasite-gitlab"
-          fetch="git@gitlab.com:TheParasiteProject-Staging"
+          fetch="https://gitlab.com/TheParasiteProject/"
           revision="main" />
 
   <!-- General repos -->
@@ -26,7 +26,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="development" name="development" remote="parasite-gitlab" />
+  <project path="development" name="development" remote="parasite" />
   <project path="kernel/configs" name="kernel_configs" remote="parasite" />
   <project path="manifest" name="manifest" remote="parasite" />
   <project path="platform_testing" name="platform_testing" remote="parasite" />
@@ -57,7 +57,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="parasite" />
-  <project path="frameworks/base" name="frameworks_base" remote="parasite-gitlab" />
+  <project path="frameworks/base" name="frameworks_base" remote="parasite" />
   <project path="frameworks/native" name="frameworks_native" remote="parasite" />
   <project path="frameworks/opt/calendar" name="frameworks_opt_calendar" remote="parasite" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="parasite" />
@@ -88,7 +88,7 @@
 
   <!-- System repos -->
   <project path="system/chre" name="system_chre" remote="parasite" />
-  <project path="system/core" name="system_core" remote="parasite-gitlab" />
+  <project path="system/core" name="system_core" remote="parasite" />
   <project path="system/keymaster" name="system_keymaster" remote="parasite" />
   <project path="system/libhidl" name="system_libhidl" remote="parasite" />
   <project path="system/libziparchive" name="system_libziparchive" remote="parasite" />
